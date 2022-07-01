@@ -1,0 +1,39 @@
+@mixin button-read-white{
+    width: 264px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+@mixin button-read-black{
+    width: 264px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+}
+
+@mixin button-mediacenter{
+    width: 264px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+%section{
+    width: 100%;
+    padding: 0 108px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
